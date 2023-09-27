@@ -164,6 +164,8 @@ h1 {
   transition: 0.2s ease-in;
 }
 
+/*category*/
+
 .main2 {
   display: flex;
   align-items: center;
@@ -212,6 +214,9 @@ h5 {
 .explorebox .main2image:active {
   transition: 0.3s ease-in;
 }
+
+/*featured-products*/
+
 .title3 {
   font-size: 26px;
   letter-spacing: 3px;
@@ -325,6 +330,9 @@ span {
   font-size: 16px;
   font-weight: 700;
 }
+
+/*discount banner*/
+
 .main4 {
   background-image: url(img/Jacketcollection.jpg);
   height: 89vh;
@@ -384,6 +392,9 @@ span {
 .main5 {
   padding: 40px 75px;
 }
+
+/*banner*/
+
 .sm-banner {
   display: flex;
   justify-content: space-between;
@@ -544,6 +555,9 @@ span {
 .sub {
   padding-top: 5px;
 }
+
+/*newsletter*/
+
 .newsletter {
   display: flex;
   justify-content: space-between;
@@ -609,6 +623,9 @@ p {
   background-color: rgb(23, 23, 23);
   transition: 0.2s ease-in;
 }
+
+/*footer*/
+
 footer {
   padding-top: 6.3em;
   height: 70vh;
@@ -628,7 +645,7 @@ footer {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-  width: 95%;
+  width: 95.5%;
   padding-top: 10px;
 }
 .footer-title {
@@ -696,7 +713,7 @@ footer {
   padding-bottom: 5px;
 }
 .icons ion-icon {
-  font-size: 30px; /* Apply the font size to the ion-icons */
-  margin-left: 25px; /* Add spacing between icons */
+  /* Apply the font size to the ion-icons */
+  margin-left: 30px; /* Add spacing between icons */
 }
 /*footer*/

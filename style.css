@@ -107,7 +107,7 @@ li {
 /*main*/
 
 .main {
-  background-image: url(hiking.jpg);
+  background-image: url(img/hiking.jpg);
   background-position: top 28% left 4%;
   height: 89vh;
   background-size: 100% auto;
@@ -326,7 +326,7 @@ span {
   font-weight: 700;
 }
 .main4 {
-  background-image: url(Jacketcollection.jpg);
+  background-image: url(img/Jacketcollection.jpg);
   height: 89vh;
   background-size: 100% auto;
   background-repeat: no-repeat;
@@ -395,7 +395,7 @@ span {
   justify-content: center;
   align-items: flex-start;
   text-align: center;
-  background-image: url(banner1.jpg);
+  background-image: url(img/banner1.jpg);
   min-width: 620px;
   height: 50vh;
   background-size: cover;
@@ -447,7 +447,7 @@ span {
   justify-content: center;
   align-items: flex-start;
   text-align: center;
-  background-image: url(banner2.jpg);
+  background-image: url(img/banner2.jpg);
   min-width: 620px;
   height: 50vh;
   background-size: cover;
@@ -465,7 +465,7 @@ span {
   justify-content: center;
   align-items: flex-start;
   text-align: center;
-  background-image: url(banner3.jpeg);
+  background-image: url(img/banner3.jpeg);
   min-width: 31%;
   height: 30vh;
   background-size: cover;
@@ -497,7 +497,7 @@ span {
   justify-content: center;
   align-items: flex-start;
   text-align: center;
-  background-image: url(banner4.jpg);
+  background-image: url(img/banner4.jpg);
   min-width: 31%;
   height: 30vh;
   background-size: cover;
@@ -522,7 +522,7 @@ span {
   justify-content: center;
   align-items: flex-start;
   text-align: center;
-  background-image: url(banner5.jpg);
+  background-image: url(img/banner5.jpg);
   min-width: 31%;
   height: 30vh;
   background-size: cover;
@@ -549,7 +549,7 @@ span {
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
-  background-image: url(banner-newsletter.jpg);
+  background-image: url(img/banner-newsletter.jpg);
   background-repeat: no-repeat;
   background-position: 20% 30%;
   padding: 95px;
@@ -649,7 +649,7 @@ footer {
   display: flex;
   align-items: center;
   padding-top: 45px;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
 }
 .footerlogo {
   padding-left: 7em;

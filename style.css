@@ -606,15 +606,15 @@ p {
   height: 50px !important;
 }
 .normal:hover {
-  background-color: grey;
+  background-color: rgb(23, 23, 23);
   transition: 0.2s ease-in;
 }
 footer {
-  padding-top: 6.5em;
+  padding-top: 6.3em;
   height: 70vh;
 }
 .footer1 {
-  padding-left: 11em;
+  padding-left: 12em;
 }
 .footer2 {
   padding-right: 0.15em;
@@ -623,16 +623,13 @@ footer {
   border-top: solid 1px rgba(103, 103, 103, 0.384);
   padding: 50px 0;
 }
-.logo2 {
-  width: 140px;
-  height: 60px;
-}
 .footer-container2 {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-  width: 100%;
+  width: 95%;
+  padding-top: 10px;
 }
 .footer-title {
   margin-bottom: 25px;
@@ -646,6 +643,60 @@ footer {
   display: block;
   margin-bottom: 15px;
   font-size: 13px;
-  color: rgb(102, 102, 102);
+  color: #666666;
+}
+.footer6 {
+  display: flex;
+  align-items: center;
+  padding-top: 45px;
+  padding-bottom: 20px;
+}
+.footerlogo {
+  padding-left: 7em;
+}
+.footer-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-right: 10em;
+  padding-left: 10px;
+  padding-top: 15px;
+}
+.footer-links {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+.footer6 h4 {
+  font-weight: 200;
+  font-size: 15px;
+}
+.footer6 a {
+  text-decoration: underline;
+  font-size: 13px;
+}
+.footerlogo {
+  padding-top: 10px;
+}
+.logo2 {
+  width: 160px;
+  height: 70px;
+}
+.footer-links a {
+  color: #666666;
+  margin-right: 15px;
+}
+.icons {
+  height: 1px;
+  color: #666666;
+  display: flex;
+  align-items: center;
+  margin-left: 10em;
+  padding-bottom: 5px;
+}
+.icons ion-icon {
+  font-size: 30px; /* Apply the font size to the ion-icons */
+  margin-left: 25px; /* Add spacing between icons */
 }
 /*footer*/

@@ -1,3 +1,3 @@
 # static-website-project
-What is this project about?
-Who is the author? 
+What is this project about? North Face Brand Website Concept
+Who is the author? Seunghyeok Kim

@@ -399,12 +399,13 @@ span {
   padding-bottom: 13px;
   font-size: 62px;
 }
+
+/*banner*/
+
 .main5 {
   margin-top: -20px;
   padding: 40px 75px;
 }
-
-/*banner*/
 
 .sm-banner {
   display: flex;
@@ -729,7 +730,9 @@ footer {
   margin-left: 25px;
 }
 
-@media (max-width: 799px) {
+/*responsive*/
+
+@media (max-width: 1000px) {
   header {
     display: flex;
     align-items: center;
@@ -802,31 +805,42 @@ footer {
     line-height: 0.4;
   }
   .btn-box {
-    width: 230px;
-    height: 40px;
-    margin: 30px 0;
-  }
-  .btn-box2 {
+    display: flex;
+    justify-content: space-between;
     width: 330px;
-    height: 42px;
+    height: 50px;
     margin: 30px 0;
   }
+  .btn-box a {
+    width: 150px;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+    border-radius: 80px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 500;
+    border: solid 1px rgb(255, 255, 255);
+    letter-spacing: 1;
+  }
+
   .title2 {
     font-size: 22px;
     letter-spacing: 3px;
     padding-top: 70px;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
   }
   .main2 {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    padding: 40px 50px;
+    padding: 0px 50px;
     margin-left: 50px;
   }
   .main2image {
-    width: 250px;
-    height: 290px;
+    width: 230px;
+    height: 270px;
     margin: 0;
   }
   .explorebox {
@@ -841,6 +855,104 @@ footer {
     padding: 0px 80px;
   }
   .overlay-text1 {
+    font-size: 18px;
+  }
+  .title3 {
+    margin-top: 0;
+    font-size: 22px;
+    letter-spacing: 3px;
+    margin-bottom: 70px;
+  }
+  .main3 {
+    width: 100%;
+    margin-bottom: 8em;
+  }
+  .slider {
+    margin-right: 10px;
+    width: 315px;
+    overflow: hidden;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+  }
+  .image img {
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .product-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    box-sizing: border-box;
+    color: white;
+  }
+  .product-name {
+    display: flex;
+    flex-direction: column;
+  }
+  .product-name,
+  a {
+    color: black;
+    text-decoration: none;
+    letter-spacing: 1px;
+  }
+  .p1 {
     font-size: 16px;
+    font-weight: 300;
+    padding: 7px 0;
+  }
+  span {
+    font-size: 15px;
+    font-weight: 100;
+    color: rgb(143, 143, 143);
+  }
+  .price {
+    font-size: 16px;
+    font-weight: 700;
+  }
+  .product-details .p1:hover {
+    color: #2a2a2a7c;
+    transition: 0.2s ease-in;
+  }
+  .main4 {
+    padding: 25px 35px;
+    margin-top: 0;
+    margin-bottom: 15em;
+    height: 68vh;
+    background-position: top 70% right 60%;
+    background-size: cover;
+  }
+  .mainphrase2 {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    padding-top: 50px;
+  }
+  .secondtitle2 {
+    padding-top: 10px;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 2px;
+    line-height: 1.2;
+  }
+
+  .button3,
+  .button4 {
+    color: rgb(0, 0, 0);
+    background-color: white;
+  }
+  .button3:hover,
+  .button4:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    border: solid 1px black;
+    transition: 0.2s ease-in;
+  }
+  .statement2 {
+    padding-bottom: 8px;
+    font-size: 50px;
   }
 }

@@ -188,7 +188,7 @@ li {
 }
 .main2image {
   width: 280px;
-  height: 350px;
+  height: 330px;
   margin: 0;
 }
 .main2,
@@ -342,8 +342,8 @@ span {
   height: 89vh;
   background-size: 100% auto;
   background-repeat: no-repeat;
-  padding: 20vh 65px;
-  margin-bottom: 10px;
+  padding: 15vh 65px;
+  margin-bottom: 50px;
 }
 .mainphrase2 {
   display: flex;
@@ -391,10 +391,11 @@ span {
   transition: 0.2s ease-in;
 }
 .statement2 {
-  padding-bottom: 18px;
+  padding-bottom: 13px;
   font-size: 62px;
 }
 .main5 {
+  margin-top: -40px;
   padding: 40px 75px;
 }
 
@@ -643,7 +644,9 @@ footer {
 }
 .footer-container {
   border-top: solid 1px rgba(103, 103, 103, 0.384);
-  padding: 50px 0;
+  padding-top: 45px;
+  padding-bottom: 35px;
+  margin-top: 10px;
 }
 .footer-container2 {
   display: flex;
@@ -651,7 +654,7 @@ footer {
   flex-wrap: wrap;
   justify-content: space-between;
   width: 95.5%;
-  padding-top: 10px;
+  padding-top: 25px;
 }
 .footer-title {
   margin-bottom: 25px;
@@ -726,7 +729,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 18px 0;
+    padding: 25px 0;
     padding-left: 10px;
     padding-right: 30px;
     background-color: rgb(255, 255, 255);
@@ -774,9 +777,70 @@ footer {
     cursor: pointer;
   }
   .main {
-    height: 60vh;
+    height: 65vh;
     padding: 0 30px;
-    background-position: top 30% right 60%;
+    background-position: top 70% right 60%;
     background-size: cover;
+  }
+  .titleforwebpage {
+    padding-top: 10em;
+  }
+  .titleforwebpage h1 {
+    font-size: 50px;
+  }
+  .statement {
+    padding-bottom: 20px;
+  }
+  .secondtitle {
+    font-size: 18px;
+    letter-spacing: 2px;
+    line-height: 0.4;
+  }
+  .btn-box {
+    width: 230px;
+    height: 40px;
+    margin: 30px 0;
+  }
+  .btn-box2 {
+    width: 330px;
+    height: 42px;
+    margin: 30px 0;
+  }
+  .main2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 100px;
+  }
+  .title2 {
+    font-size: 20px;
+    padding-top: 70px;
+  }
+  .main2image {
+    width: 160px;
+    height: 200px;
+    margin: 0;
+  }
+  .main2,
+  .explorebox {
+    position: relative;
+    width: 380px;
+    text-align: center;
+    padding: 25px 32px;
+  }
+  h5 {
+    font-weight: 100;
+    letter-spacing: 3px;
+    padding: 0px 80px;
+  }
+  .overlay-text1 {
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    font-size: 16px;
   }
 }

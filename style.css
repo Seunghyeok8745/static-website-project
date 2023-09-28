@@ -103,6 +103,10 @@ li {
 .icon-container {
   transition: 0.2s ease-in-out;
 }
+.mobile {
+  display: none;
+  align-items: center;
+}
 
 /*main*/
 
@@ -121,7 +125,7 @@ li {
   justify-content: center;
   color: rgb(255, 255, 255);
 }
-h1 {
+.titleforwebpage h1 {
   font-size: 70px;
 }
 .statement {
@@ -338,7 +342,8 @@ span {
   height: 89vh;
   background-size: 100% auto;
   background-repeat: no-repeat;
-  padding: 24vh 65px;
+  padding: 20vh 65px;
+  margin-bottom: 10px;
 }
 .mainphrase2 {
   display: flex;
@@ -715,4 +720,63 @@ footer {
 .icons ion-icon {
   margin-left: 30px;
 }
-/*footer*/
+
+@media (max-width: 799px) {
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 0;
+    padding-left: 10px;
+    padding-right: 30px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 3px 15px rgba(101, 101, 101, 0.259);
+    z-index: 2;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  .logo {
+    width: 135px;
+    height: 60px;
+    margin: 0;
+  }
+  .navbar {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    position: fixed;
+    top: 40;
+    right: -300px;
+    height: 100vh;
+    width: 300px;
+    background-color: white;
+    box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+    padding: 80px 0 0 10;
+    transition: 0.3s;
+  }
+  .navbar.active {
+    right: 0px;
+  }
+  .navbar li {
+    margin-bottom: 25px;
+  }
+  .mobile {
+    display: flex;
+    align-items: center;
+  }
+  .mobile ion-icon {
+    color: #1a1a1a;
+    font-size: 26px;
+    padding-left: 20px;
+    cursor: pointer;
+  }
+  .main {
+    height: 60vh;
+    padding: 0 30px;
+    background-position: top 30% right 60%;
+    background-size: cover;
+  }
+}

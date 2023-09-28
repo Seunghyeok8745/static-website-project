@@ -1,3 +1,12 @@
+const menu = document.getElementById('menu');
+const nav = document.getElementById('navbar');
+
+if (menu) {
+  menu.addEventListener('click', () => {
+    nav.classList.add('active');
+  });
+}
+
 (function (global, factory) {
   'use strict';
 

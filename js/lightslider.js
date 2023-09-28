@@ -1,4 +1,16 @@
 $(document).ready(function () {
+  $('#lightSlider').lightSlider({
+    item: 3, //
+    autoWidth: false,
+    slideMove: 1,
+    slideMargin: 10,
+    addClass: '',
+    mode: 'slide',
+    useCSS: true,
+  });
+});
+
+$(document).ready(function () {
   $('#autoWidth').lightSlider({
     autoWidth: true,
     loop: true,
@@ -17,9 +29,9 @@ $(document).ready(function () {
     addClass: '',
     mode: 'slide',
     useCSS: true,
-    cssEasing: 'ease', //'cubic-bezier(0.25, 0, 0.25, 1)',
-    easing: 'linear', //'for jquery animation',//
-    speed: 400, //ms'
+    cssEasing: 'ease',
+    easing: 'linear',
+    speed: 400,
     auto: false,
     pauseOnHover: false,
     loop: false,

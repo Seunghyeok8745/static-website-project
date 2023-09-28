@@ -44,7 +44,7 @@ ul {
   padding: 10px 0;
 }
 li {
-  padding: 0 20px;
+  padding: 0 18px;
 }
 .navbar li a {
   color: #7a7a7adf;
@@ -396,7 +396,7 @@ span {
   font-size: 62px;
 }
 .main5 {
-  margin-top: -40px;
+  margin-top: -20px;
   padding: 40px 75px;
 }
 
@@ -722,7 +722,7 @@ footer {
   padding-bottom: 5px;
 }
 .icons ion-icon {
-  margin-left: 30px;
+  margin-left: 25px;
 }
 
 @media (max-width: 799px) {
@@ -821,8 +821,8 @@ footer {
     margin-left: 50px;
   }
   .main2image {
-    width: 230px;
-    height: 270px;
+    width: 250px;
+    height: 290px;
     margin: 0;
   }
   .explorebox {
